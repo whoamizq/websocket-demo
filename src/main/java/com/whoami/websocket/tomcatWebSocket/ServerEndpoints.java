@@ -17,8 +17,8 @@ import java.util.Set;
  * @Date 14:28 2020/7/18
  **/
 //标识此类为Tomcat的websocket服务终端，/websocket/yy.action 是客户端连接请求的路径
-@ServerEndpoint(value = "/websocket/yy.action")
-@Component //将本类交由springIoc容器管理
+//@ServerEndpoint(value = "/websocket/yy.action")
+//@Component //将本类交由springIoc容器管理
 public class ServerEndpoints {
     private static Logger logger = LoggerFactory.getLogger(ServerEndpoints.class);
 
