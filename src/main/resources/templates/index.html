@@ -28,7 +28,8 @@
 <script th:inline="javascript">
     var stompClient = null;
     //此值有服务端传递给前端,实现方式没有要求
-    var userId = [[${userId}]];
+    // var userId = [[${userId}]];
+    var userId = "d892bf12bf7d11e793b69c5c8e6f60fb";
 
     function setConnected(connected) {
         document.getElementById('connect').disabled = connected;
